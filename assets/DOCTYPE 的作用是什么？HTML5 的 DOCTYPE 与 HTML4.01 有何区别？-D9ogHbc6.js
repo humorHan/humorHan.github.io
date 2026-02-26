@@ -1,0 +1,1 @@
+const T='### DOCTYPE 的作用是什么？HTML5 的 DOCTYPE 与 HTML4.01 有何区别？\n\n**答案**：DOCTYPE（文档类型声明）用于告诉浏览器当前 HTML 文档遵循的 DTD（文档类型定义）规范，让浏览器以正确的渲染模式（标准模式 / 怪异模式）解析页面。\n区别：\n① HTML5 的 DOCTYPE 简化为 `<!DOCTYPE html>`，无需引用 DTD 文件；\n② HTML4.01 需指定 DTD 类型（如严格型 `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "``http://www.w3.org/TR/html4/strict.dtd``">`），且区分严格型、过渡型、框架集型。';export{T as default};

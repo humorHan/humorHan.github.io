@@ -1,0 +1,1 @@
+const _="#### 请解释 TypeScript 中 `interface` 和 `type` 的区别，并说明在什么场景下你会优先选择其中一种？\n\n**答案**：\n\n**优先选择场景**：\n\n- 选 `interface`：定义对象 / 类的公共接口、需要对外暴露且可能被扩展 / 合并（如组件 Props、类的接口）；\n- 选 `type`：定义基本类型别名、联合类型、交叉类型、元组，或需要计算属性、一次性类型组合（如 `type Status = 'success' | 'fail'`）。";export{_ as default};

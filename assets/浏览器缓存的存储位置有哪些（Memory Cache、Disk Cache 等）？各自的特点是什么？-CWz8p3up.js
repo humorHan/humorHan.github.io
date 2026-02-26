@@ -1,0 +1,1 @@
+const _="#### 浏览器缓存的存储位置有哪些（Memory Cache、Disk Cache 等）？各自的特点是什么？\n\n【核心考察点】浏览器缓存的物理存储层级，不同存储位置的特性及适用场景【参考答案】浏览器缓存存储位置优先级：`Memory Cache` → `Disk Cache` → `Service Worker Cache` → `Push Cache`，核心是前两者：\n";export{_ as default};
